@@ -56,15 +56,15 @@ table td {
   text-align: center;
 }
 
-table td .aula {
+#aula {
   background-color: #ff69b4;
 }
 
-table td .projeto {
+#projeto {
   background-color: #ffff00;
 }
 
-table td .tempo-livre {
+#tempo-livre {
   background-color: #00bfff;
 }
 
@@ -93,9 +93,6 @@ main ul.sublista li{
 main ul li.nota-frequencia-baixa {
   background-color: #ffb6c1;
 }
-main ul li.nota-frequencia-alta {
-  background-color: #6af371;
-}
 
 main ul.sublista .nota {
   font-weight: bold;
@@ -105,8 +102,6 @@ main ul.sublista .frequencia {
   font-style: italic;
 }
 
-
-/* Estilos para o rodapé da página */
 footer {
   background-color: #333;
   color: white;
