@@ -47,6 +47,7 @@ main {
 table {
   border-collapse: collapse;
   width: 100%;
+  
 }
 
 table td {
@@ -55,15 +56,15 @@ table td {
   text-align: center;
 }
 
-table td.aula {
+table td .aula {
   background-color: #ff69b4;
 }
 
-table td.projeto {
+table td .projeto {
   background-color: #ffff00;
 }
 
-table td.tempo-livre {
+table td .tempo-livre {
   background-color: #00bfff;
 }
 
@@ -92,12 +93,15 @@ main ul.sublista li{
 main ul li.nota-frequencia-baixa {
   background-color: #ffb6c1;
 }
+main ul li.nota-frequencia-alta {
+  background-color: #6af371;
+}
 
-main ul.sublista span.nota {
+main ul.sublista .nota {
   font-weight: bold;
 }
 
-main ul.sublista span.frequencia {
+main ul.sublista .frequencia {
   font-style: italic;
 }
 
@@ -109,3 +113,4 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
