@@ -18,41 +18,27 @@
   </nav>
   <main>
     <h1>Notas do Estudante</h1>
-    <ul id="lista-disciplinas">
-      <li>
-        <h2>Disciplina de Matemática</h2>
-        <ul class="sublista">
-          <li >Nota: <span class="nota">7.5</span></li>
-          <li >Frequência: <span class="frequencia">90%</span></li>
-        </ul>
-      </li>
-      <li class="nota-frequencia-baixa">
-        <h2>Disciplina de Inglês</h2>
-        <ul class="sublista">
-          <li >Nota: <span class="nota">4.0</span></li>
-          <li >Frequência: <span class="frequencia">60%</span></li>
-        </ul>
-      </li>
-      <li class="nota-frequencia-baixa">
-        <h2>Disciplina de Programação</h2>
-        <ul class="sublista">
-          <li >Nota: <span class="nota">5.5</span></li>
-          <li >Frequência: <span class="frequencia">70%</span></li>
-        </ul>
-      </li>
-      <li>
-        <h2>Disciplina de Algoritmos</h2>
-        <ul class="sublista">
-          <li >Nota: <span class="nota">9.0</span></li>
-          <li >Frequência: <span class="frequencia">95%</span></li>
-        </ul>
-      </li>
-    </ul>
+    <form id="form-disciplina">
+			<label for="disciplina">Disciplina:</label>
+			<input type="text" id="disciplina" name="disciplina" required>
+
+			<label for="nota">Nota:</label>
+			<input type="number" id="nota" name="nota" min="0" max="10" required>
+
+			<label for="frequencia">Frequência:</label>
+			<input type="number" id="frequencia" name="frequencia" min="0" max="100" required>
+
+			<button type="button" onclick="adicionarDisciplina()">Adicionar</button>
+		</form>
     <br>
+		<ul id="lista-disciplinas"></ul>
+
   </main>
   <footer>
     <p>Sávio Cantero - WEB2 ESPECIAL - 2023</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

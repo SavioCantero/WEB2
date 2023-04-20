@@ -93,6 +93,9 @@ main ul.sublista li{
 main ul li.nota-frequencia-baixa {
   background-color: #ffb6c1;
 }
+main ul li.nota-frequencia-alta {
+  background-color: #6af371;
+}
 
 main ul.sublista .nota {
   font-weight: bold;
@@ -102,6 +105,8 @@ main ul.sublista .frequencia {
   font-style: italic;
 }
 
+
+/* Estilos para o rodapé da página */
 footer {
   background-color: #333;
   color: white;
@@ -109,3 +114,15 @@ footer {
   text-align: center;
 }
 
+#form-disciplina{
+  text-align: center;
+}
+#form-disciplina label{
+  font-weight: bold;
+}
+
+button{
+  background-color: rgb(18, 56, 0);
+  color: white;
+  font-weight: bold;
+}
